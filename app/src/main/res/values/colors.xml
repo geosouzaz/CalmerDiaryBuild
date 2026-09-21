@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ===== Identidade visual: Vinho / Bordô ===== -->
+    <color name="wine_primary">#7A1F3D</color>
+    <color name="wine_primary_dark">#55152B</color>
+    <color name="wine_primary_light">#A83D5E</color>
+    <color name="wine_accent">#C75B78</color>
+
+    <!-- Superfícies e fundos -->
+    <color name="background_light">#FAF7F8</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="background_dark">#171114</color>
+    <color name="surface_dark">#24191D</color>
+
+    <!-- Texto -->
+    <color name="text_light">#2A2023</color>
+    <color name="text_dark">#F5EEF0</color>
+    <color name="text_secondary_light">#6E5F65</color>
+    <color name="text_secondary_dark">#C9B8BF</color>
+
+    <!-- Neutros / apoio -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="outline_light">#E6DADF</color>
+    <color name="outline_dark">#3A2C32</color>
+
+    <!-- Camadas sobre imagens de fundo (legibilidade) -->
+    <color name="scrim_dark">#99000000</color>
+    <color name="scrim_dark_strong">#B3120810</color>
+    <color name="surface_translucent">#F2FFFFFF</color>
+    <color name="surface_translucent_dark">#F224191D</color>
+
+    <!-- Estados de humor (usados nos gráficos e seletor) -->
+    <color name="mood_great">#E75480</color>
+    <color name="mood_good">#F2B705</color>
+    <color name="mood_calm">#8FBF8F</color>
+    <color name="mood_normal">#A0A0A0</color>
+    <color name="mood_sad">#6FA8DC</color>
+    <color name="mood_bad">#9575CD</color>
+    <color name="mood_angry">#C0392B</color>
+</resources>

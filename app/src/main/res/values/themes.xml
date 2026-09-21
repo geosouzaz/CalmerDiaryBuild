@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema base (modo claro). O modo escuro é definido em values-night/themes.xml -->
+    <style name="Theme.CalmerDiary" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Cores primárias (vinho) -->
+        <item name="colorPrimary">@color/wine_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/wine_primary_light</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+
+        <!-- Secundária / destaque -->
+        <item name="colorSecondary">@color/wine_accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Superfícies e fundo -->
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="colorOnBackground">@color/text_light</item>
+        <item name="colorSurface">@color/surface_light</item>
+        <item name="colorOnSurface">@color/text_light</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary_light</item>
+        <item name="colorOutline">@color/outline_light</item>
+
+        <!-- Barras do sistema -->
+        <item name="android:statusBarColor">@color/wine_primary</item>
+        <item name="android:navigationBarColor">@color/background_light</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+    </style>
+
+    <!-- Cabeçalho de seção nas Configurações -->
+    <style name="SettingsSection" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <!--
+      Tema fixo (sempre escuro) para as telas de autenticação, que são
+      exibidas sobre a imagem de fundo escura. Assim os campos e textos
+      permanecem legíveis independentemente do modo claro/escuro do app.
+    -->
+    <style name="Theme.CalmerDiary.Auth" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/wine_primary_light</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/wine_primary</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+        <item name="colorSecondary">@color/wine_accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/text_dark</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary_dark</item>
+        <item name="colorOutline">@color/outline_dark</item>
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

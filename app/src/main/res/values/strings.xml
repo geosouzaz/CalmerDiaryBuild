@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calmer Diary</string>
+    <string name="app_tagline">Seu diário, seu refúgio</string>
+
+    <!-- Login -->
+    <string name="login_welcome">Bem-vindo(a) de volta</string>
+    <string name="login_subtitle">Entre para continuar seu diário</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_password">Senha</string>
+    <string name="action_login">Entrar</string>
+    <string name="action_go_register">Não tem conta? Criar conta</string>
+    <string name="action_login_biometric">Entrar com biometria</string>
+
+    <!-- Cadastro -->
+    <string name="register_title">Criar conta</string>
+    <string name="register_subtitle">Comece a registrar seus dias</string>
+    <string name="hint_name">Nome</string>
+    <string name="hint_password_confirm">Confirmar senha</string>
+    <string name="action_register">Cadastrar</string>
+    <string name="action_go_login">Já tem conta? Entrar</string>
+
+    <!-- Validações -->
+    <string name="error_required">Campo obrigatório</string>
+    <string name="error_email_invalid">E-mail inválido</string>
+    <string name="error_name_short">Informe seu nome</string>
+    <string name="error_password_short">A senha deve ter ao menos 6 caracteres</string>
+    <string name="error_password_mismatch">As senhas não coincidem</string>
+    <string name="error_email_taken">E-mail já cadastrado</string>
+    <string name="error_invalid_credentials">E-mail ou senha inválidos</string>
+    <string name="error_generic">Algo deu errado. Tente novamente.</string>
+
+    <!-- Sucesso -->
+    <string name="success_register">Cadastro realizado com sucesso</string>
+
+    <!-- Home -->
+    <string name="home_greeting">Olá, %1$s</string>
+    <string name="home_question">Como você está hoje?</string>
+    <string name="action_logout">Sair</string>
+
+    <!-- Navegação inferior -->
+    <string name="nav_diary">Diário</string>
+    <string name="nav_calendar">Calendário</string>
+    <string name="nav_stats">Estatísticas</string>
+    <string name="nav_profile">Meu</string>
+    <string name="cd_new_entry">Nova entrada</string>
+
+    <!-- Home / cards -->
+    <string name="streak_title">Sequência de %1$d dia(s)</string>
+    <string name="summary_entries_month">Entradas este mês</string>
+    <string name="summary_total_entries">Total de entradas</string>
+    <string name="summary_active_days">Dias ativos</string>
+    <string name="summary_longest_streak">Maior sequência</string>
+    <string name="home_entries_title">Suas entradas</string>
+    <string name="empty_entries_title">Você ainda não possui entradas</string>
+    <string name="empty_entries_hint">Toque em + para escrever sobre o seu dia.</string>
+    <string name="empty_search_title">Nenhuma entrada encontrada</string>
+    <string name="empty_search_hint">Tente outra busca ou filtro.</string>
+
+    <!-- Pesquisa e filtros -->
+    <string name="hint_search">Pesquisar no diário</string>
+    <string name="cd_search">Pesquisar</string>
+    <string name="filter_all">Todos</string>
+    <string name="filter_today">Hoje</string>
+    <string name="filter_week">Semana</string>
+    <string name="filter_month">Mês</string>
+    <string name="filter_year">Ano</string>
+
+    <!-- Tema (aparência) -->
+    <string name="theme_title">Tema do app</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Escuro</string>
+
+    <!-- Perfil: estatísticas e conquistas -->
+    <string name="profile_stats_total">Entradas</string>
+    <string name="profile_stats_active">Dias ativos</string>
+    <string name="profile_stats_streak">Maior sequência</string>
+    <string name="profile_achievements_title">Conquistas</string>
+    <string name="achievement_unlocked">Conquistada!</string>
+    <string name="achievement_progress">%1$d%%</string>
+
+    <string name="ach_first_title">Primeira página</string>
+    <string name="ach_first_desc">Escreva sua primeira entrada</string>
+    <string name="ach_entries10_title">Colecionador(a)</string>
+    <string name="ach_entries10_desc">10 entradas registradas</string>
+    <string name="ach_entries30_title">Escritor(a) dedicado(a)</string>
+    <string name="ach_entries30_desc">30 entradas registradas</string>
+    <string name="ach_streak3_title">Trio de dias</string>
+    <string name="ach_streak3_desc">3 dias seguidos escrevendo</string>
+    <string name="ach_streak7_title">Semana firme</string>
+    <string name="ach_streak7_desc">7 dias seguidos escrevendo</string>
+    <string name="ach_palette_title">Paleta Colorida</string>
+    <string name="ach_palette_desc">Registre 6 humores diferentes</string>
+
+    <!-- Estatísticas / Humor -->
+    <string name="stats_mood_title">Estatísticas de humor</string>
+    <string name="stats_stability_title">Estabilidade emocional</string>
+    <string name="stats_bem">Bem</string>
+    <string name="stats_normal">Normal</string>
+    <string name="stats_ruim">Ruim</string>
+    <string name="stats_empty">Registre o humor nas suas entradas para ver as estatísticas.</string>
+
+    <!-- Configurações -->
+    <string name="settings_title">Configurações</string>
+    <string name="action_settings">Configurações</string>
+    <string name="section_appearance">Aparência</string>
+    <string name="section_security">Segurança</string>
+    <string name="section_diary">Diário</string>
+    <string name="section_account">Conta</string>
+    <string name="setting_biometric">Usar biometria</string>
+    <string name="setting_biometric_unavailable">Biometria indisponível neste dispositivo</string>
+    <string name="setting_change_password">Alterar senha</string>
+    <string name="setting_confirm_delete">Confirmar antes de excluir</string>
+    <string name="setting_delete_account">Excluir conta</string>
+    <string name="delete_account_title">Excluir conta?</string>
+    <string name="delete_account_message">Todos os seus dados serão apagados permanentemente.</string>
+    <string name="change_password_title">Alterar senha</string>
+    <string name="hint_current_password">Senha atual</string>
+    <string name="hint_new_password">Nova senha</string>
+    <string name="success_password_changed">Senha alterada</string>
+    <string name="success_account_deleted">Conta excluída</string>
+    <string name="biometric_enabled_msg">Login por biometria ativado</string>
+
+    <!-- Calendário -->
+    <string name="calendar_entries_title">Entradas deste dia</string>
+    <string name="calendar_no_day_entries">Nenhuma entrada neste dia.</string>
+    <string name="cd_prev_month">Mês anterior</string>
+    <string name="cd_next_month">Próximo mês</string>
+
+    <!-- Placeholders das abas (preenchidas nas próximas etapas) -->
+    <string name="soon_calendar">O calendário chega na próxima etapa.</string>
+    <string name="soon_stats">As estatísticas de humor chegam em breve.</string>
+    <string name="soon_new_entry">A tela de nova entrada chega na próxima etapa.</string>
+
+    <!-- Perfil -->
+    <string name="profile_title">Meu</string>
+
+    <!-- Editor de entrada -->
+    <string name="editor_title_new">Nova entrada</string>
+    <string name="editor_title_edit">Editar entrada</string>
+    <string name="hint_entry_title">Título</string>
+    <string name="hint_entry_content">Escreva sobre o seu dia…</string>
+    <string name="label_mood">Como você está se sentindo?</string>
+    <string name="label_date">Data</string>
+    <string name="label_image">Imagem (opcional)</string>
+    <string name="action_add_image">Adicionar imagem</string>
+    <string name="action_remove_image">Remover imagem</string>
+    <string name="action_save">Salvar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="success_entry_saved">Entrada salva com sucesso</string>
+    <string name="error_title_required">Dê um título para a entrada</string>
+    <string name="error_content_required">Escreva algo antes de salvar</string>
+    <string name="cd_entry_image">Imagem da entrada</string>
+    <string name="cd_pick_date">Escolher data</string>
+
+    <!-- Humores -->
+    <string name="mood_very_happy">Muito feliz</string>
+    <string name="mood_happy">Feliz</string>
+    <string name="mood_in_love">Apaixonado(a)</string>
+    <string name="mood_calm">Calmo(a)</string>
+    <string name="mood_neutral">Normal</string>
+    <string name="mood_sad">Triste</string>
+    <string name="mood_anxious">Ansioso(a)</string>
+    <string name="mood_angry">Irritado(a)</string>
+    <string name="cd_entry_mood">Humor da entrada</string>
+
+    <!-- Visualização da entrada -->
+    <string name="view_title">Entrada</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_delete">Excluir</string>
+    <string name="delete_confirm_title">Excluir entrada?</string>
+    <string name="delete_confirm_message">Essa ação não poderá ser desfeita.</string>
+    <string name="success_entry_deleted">Entrada excluída</string>
+
+    <!-- Acessibilidade -->
+    <string name="cd_app_logo">Logotipo do Calmer Diary</string>
+    <string name="cd_background">Imagem de fundo decorativa</string>
+</resources>
