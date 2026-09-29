@@ -236,8 +236,4 @@ Em um clone normal isso **não é necessário** — o projeto usa o diretório `
 
 ---
 
-## 👤 Autor
-
-Desenvolvido por **Matheus** para a disciplina de Desenvolvimento Mobile.
-
 <p align="center"><em>Calmer Diary — encontre magia nos dias comuns. 🍷</em></p>
